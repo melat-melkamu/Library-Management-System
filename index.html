@@ -3,69 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bank Management System</title>
-    <link rel="stylesheet" href="kid.css">
+    <title>Library Management System</title>
+    <link rel="stylesheet" href="hill.css">
+   
+    </style>
+</head>
 </head>
 <body>
     <header>
-        <h1>Bank Management System</h1>
+        <h1>Library Management System</h1>
     </header>
 
-    <section class="accounts">
-        <h2>Accounts</h2>
+    <section class="books">
+        <h2>Available Books</h2>
         <table>
             <tr>
-                <th>Account ID</th>
+                <th>Book ID</th>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Status</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>The Great Gatsby</td>
+                <td>F. Scott Fitzgerald</td>
+                <td>Available</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>1984</td>
+                <td>George Orwell</td>
+                <td>Borrowed</td>
+            </tr>
+            <tr>
+                <td>003</td>
+                <td>To Kill a Mockingbird</td>
+                <td>Harper Lee</td>
+                <td>Available</td>
+            </tr>
+        </table>
+    </section>
+
+    <section class="users">
+        <h2>Library Users</h2>
+        <table>
+            <tr>
+                <th>User ID</th>
                 <th>Name</th>
-                <th>Balance</th>
+                <th>Borrowed Book</th>
             </tr>
             <tr>
-                <td>1001</td>
+                <td>U001</td>
                 <td>Melat Melkamu</td>
-                <td>$5,000</td>
+                <td>1984</td>
             </tr>
             <tr>
-                <td>1002</td>
+                <td>U002</td>
                 <td>John Doe</td>
-                <td>$2,300</td>
+                <td>None</td>
             </tr>
         </table>
     </section>
-
-    <section class="transactions">
-        <h2>Transactions</h2>
-        <table>
-            <tr>
-                <th>Transaction ID</th>
-                <th>Account ID</th>
-                <th>Type</th>
-                <th>Amount</th>
-            </tr>
-            <tr>
-                <td>T001</td>
-                <td>1001</td>
-                <td>Deposit</td>
-                <td>$1,000</td>
-            </tr>
-            <tr>
-                <td>T002</td>
-                <td>1002</td>
-                <td>Withdrawal</td>
-                <td>$500</td>
-            </tr>
-        </table>
+ <section class="github">
+      <a href="https://github.com/melat-melkamu/Library-Management-System" target="_blank" class="github-button">
+            GO TO GITHUB
+        </a>
     </section>
-
-    
-    <section class="github">
-        <a href="https://github.com/melat-melkamu/Bank-Management-System" target="_blank" class="github-button">
-    Go to GitHub Repo
-</a>
-
-    </section>
-
     <footer>
-        <p>© 2025 Bank Management System</p>
+        <p>© 2025 Library Management System</p>
     </footer>
 </body>
 </html>
+
+
